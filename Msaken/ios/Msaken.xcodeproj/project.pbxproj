@@ -1,0 +1,1064 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* MsakenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MsakenTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		359E049C3244FC1722758056 /* libPods-MsakenPushNotification.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1757DCC5EB53956402DAF575 /* libPods-MsakenPushNotification.a */; };
+		64D1B152494C3E26C62C8380 /* libPods-Msaken-MsakenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE486A4E0B7AC069397347C /* libPods-Msaken-MsakenTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		BD1E033227A147F4000AEB8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1E033127A147F3000AEB8F /* Images.xcassets */; };
+		BD1E033527A15BAB000AEB8F /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EBA55D0C54B45168072177D /* Roboto-BlackItalic.ttf */; };
+		BD1E033827A15BB2000AEB8F /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE58A90B0A9548738E25C779 /* Roboto-Light.ttf */; };
+		BD1E034727A15D9B000AEB8F /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD1E033B27A15D9A000AEB8F /* Roboto-Regular.ttf */; };
+		BD1E034827A15D9B000AEB8F /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD1E033C27A15D9A000AEB8F /* Roboto-ThinItalic.ttf */; };
+		BD1E034A27A15D9B000AEB8F /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD1E033E27A15D9A000AEB8F /* Roboto-BoldItalic.ttf */; };
+		BD1E034B27A15D9B000AEB8F /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD1E033F27A15D9A000AEB8F /* Roboto-Thin.ttf */; };
+		BD1E034C27A15D9B000AEB8F /* Roboto_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD1E034027A15D9A000AEB8F /* Roboto_Bold.ttf */; };
+		BD1E034D27A15D9B000AEB8F /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD1E034127A15D9A000AEB8F /* Roboto-BlackItalic.ttf */; };
+		BD1E034E27A15D9B000AEB8F /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD1E034227A15D9B000AEB8F /* Roboto-LightItalic.ttf */; };
+		BD1E034F27A15D9B000AEB8F /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD1E034327A15D9B000AEB8F /* Roboto-MediumItalic.ttf */; };
+		BD1E035127A15D9B000AEB8F /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD1E034527A15D9B000AEB8F /* Roboto-Black.ttf */; };
+		BD1E035227A15D9B000AEB8F /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD1E034627A15D9B000AEB8F /* Roboto-Medium.ttf */; };
+		BD1E035527A15F73000AEB8F /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD1E035327A15F73000AEB8F /* Roboto-Bold.ttf */; };
+		BD1E035627A15F73000AEB8F /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD1E035427A15F73000AEB8F /* Roboto-Italic.ttf */; };
+		BD2F934F27A58A3800B5B0EA /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2F934E27A58A3800B5B0EA /* NotificationService.swift */; };
+		BD2F935327A58A3800B5B0EA /* MsakenPushNotification.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BD2F934C27A58A3800B5B0EA /* MsakenPushNotification.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BDAE9F3927A01E850091A278 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDAE9F3827A01E850091A278 /* GoogleService-Info.plist */; };
+		F5664FCF4304D2B04951904F /* libPods-Msaken.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4089119F2C711F999AD1F373 /* libPods-Msaken.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Msaken;
+		};
+		BD2F935127A58A3800B5B0EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD2F934B27A58A3800B5B0EA;
+			remoteInfo = MsakenPushNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BD2F935727A58A3800B5B0EA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BD2F935327A58A3800B5B0EA /* MsakenPushNotification.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* MsakenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MsakenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* MsakenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MsakenTests.m; sourceTree = "<group>"; };
+		027964B6F4F856EA7BC99E51 /* Pods-Msaken.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Msaken.debug.xcconfig"; path = "Target Support Files/Pods-Msaken/Pods-Msaken.debug.xcconfig"; sourceTree = "<group>"; };
+		06AF08237D6E410F90133499 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../src/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		0CE486A4E0B7AC069397347C /* libPods-Msaken-MsakenTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Msaken-MsakenTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Msaken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Msaken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Msaken/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Msaken/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Msaken/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Msaken/main.m; sourceTree = "<group>"; };
+		1757DCC5EB53956402DAF575 /* libPods-MsakenPushNotification.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MsakenPushNotification.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CCCA09492AB4C1A948212D2 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../src/assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		21D88D455640B588800554BA /* Pods-Msaken-MsakenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Msaken-MsakenTests.release.xcconfig"; path = "Target Support Files/Pods-Msaken-MsakenTests/Pods-Msaken-MsakenTests.release.xcconfig"; sourceTree = "<group>"; };
+		374BF50182EC4384B79491D5 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		39AB7052B25C4AA59ADFA8B8 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../src/assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3AC20F372B83E24B774FE4EA /* Pods-Msaken.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Msaken.release.xcconfig"; path = "Target Support Files/Pods-Msaken/Pods-Msaken.release.xcconfig"; sourceTree = "<group>"; };
+		3CEFA4D1B70E499993137DE7 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		4089119F2C711F999AD1F373 /* libPods-Msaken.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Msaken.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		462FB40D6A5D41DE97783C5D /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		464AB09E2D3D4394B6582501 /* Roboto_Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_Italic.ttf; path = ../src/assets/fonts/Roboto_Italic.ttf; sourceTree = "<group>"; };
+		4D7055CD7EBF4637AD468327 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		53E46367F92D43DCA5789B89 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		59093229F135478D8A3742DE /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		5FB920734DBF433D941B0BC0 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		65830C45927E263E1F364045 /* Pods-Msaken-MsakenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Msaken-MsakenTests.debug.xcconfig"; path = "Target Support Files/Pods-Msaken-MsakenTests/Pods-Msaken-MsakenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CEDBFC06F0F4E1886D6FD41 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../src/assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		6EBA55D0C54B45168072177D /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../src/assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		7BA8F79CF54BED6A1BB6BAA1 /* Pods-MsakenPushNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MsakenPushNotification.debug.xcconfig"; path = "Target Support Files/Pods-MsakenPushNotification/Pods-MsakenPushNotification.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Msaken/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		832EAB32F577458089C9E791 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../src/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		89AFBB79EFE948CA94D87EEF /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		9009D39487ED419CB55632A1 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../src/assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		B668B200DE344059AAE1DB91 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		BD1E033127A147F3000AEB8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD1E033B27A15D9A000AEB8F /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		BD1E033C27A15D9A000AEB8F /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-ThinItalic.ttf"; path = "../../src/assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		BD1E033D27A15D9A000AEB8F /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "../../src/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		BD1E033E27A15D9A000AEB8F /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BoldItalic.ttf"; path = "../../src/assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		BD1E033F27A15D9A000AEB8F /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "../../src/assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		BD1E034027A15D9A000AEB8F /* Roboto_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Roboto_Bold.ttf; path = ../../src/assets/fonts/Roboto_Bold.ttf; sourceTree = "<group>"; };
+		BD1E034127A15D9A000AEB8F /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BlackItalic.ttf"; path = "../../src/assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		BD1E034227A15D9B000AEB8F /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-LightItalic.ttf"; path = "../../src/assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		BD1E034327A15D9B000AEB8F /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-MediumItalic.ttf"; path = "../../src/assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		BD1E034427A15D9B000AEB8F /* Roboto_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Roboto_Italic.ttf; path = ../../src/assets/fonts/Roboto_Italic.ttf; sourceTree = "<group>"; };
+		BD1E034527A15D9B000AEB8F /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Black.ttf"; path = "../../src/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		BD1E034627A15D9B000AEB8F /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "../../src/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		BD1E035327A15F73000AEB8F /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../src/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		BD1E035427A15F73000AEB8F /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Italic.ttf"; path = "../../src/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		BD1E035727A15FD7000AEB8F /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Octicons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		BD1E035827A15FD7000AEB8F /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		BD1E035927A15FD7000AEB8F /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = EvilIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		BD1E035A27A15FD8000AEB8F /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		BD1E035B27A15FD8000AEB8F /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Solid.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		BD1E035C27A15FD8000AEB8F /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Entypo.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		BD1E035D27A15FD9000AEB8F /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AntDesign.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		BD1E035E27A15FD9000AEB8F /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Fontisto.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		BD1E035F27A15FD9000AEB8F /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Regular.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		BD1E036027A15FD9000AEB8F /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Foundation.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		BD1E036127A15FDA000AEB8F /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SimpleLineIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		BD1E036227A15FDA000AEB8F /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Zocial.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		BD1E036F27A16139000AEB8F /* Material Icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Material Icons.ttf"; path = "../../node_modules/react-native-vector-icons/Fonts/Material Icons.ttf"; sourceTree = "<group>"; };
+		BD1E037127A1680C000AEB8F /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		BD2F934C27A58A3800B5B0EA /* MsakenPushNotification.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MsakenPushNotification.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2F934E27A58A3800B5B0EA /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		BD2F935027A58A3800B5B0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAE9F3827A01E850091A278 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C0E8A7F224E64AF5BB5F0976 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		C44D7E9FB3B84835A54E30A3 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		CD183053EC7A49EF9F93623F /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		D31EA4AEC70406CAA46036BF /* Pods-MsakenPushNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MsakenPushNotification.release.xcconfig"; path = "Target Support Files/Pods-MsakenPushNotification/Pods-MsakenPushNotification.release.xcconfig"; sourceTree = "<group>"; };
+		D39935C822C445BFA2B2ED0F /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		D40DFE74A15640EABAE26479 /* Roboto_Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_Bold.ttf; path = ../src/assets/fonts/Roboto_Bold.ttf; sourceTree = "<group>"; };
+		D6D7919545B24121B05DB37C /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		DC098DA2687E431AA33110BB /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		EC8B426E005D40BBB60064AB /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../src/assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F984B91426FAB28700A8DC79 /* Msaken.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Msaken.entitlements; path = Msaken/Msaken.entitlements; sourceTree = "<group>"; };
+		FE58A90B0A9548738E25C779 /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../src/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D1B152494C3E26C62C8380 /* libPods-Msaken-MsakenTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5664FCF4304D2B04951904F /* libPods-Msaken.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2F934927A58A3800B5B0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359E049C3244FC1722758056 /* libPods-MsakenPushNotification.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* MsakenTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* MsakenTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = MsakenTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Msaken */ = {
+			isa = PBXGroup;
+			children = (
+				BD1E033927A15CF5000AEB8F /* Fonts */,
+				BDAE9F3827A01E850091A278 /* GoogleService-Info.plist */,
+				F984B91426FAB28700A8DC79 /* Msaken.entitlements */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				BD1E033127A147F3000AEB8F /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Msaken;
+			sourceTree = "<group>";
+		};
+		2A9D3ED49BFD428A9E1A8C37 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D40DFE74A15640EABAE26479 /* Roboto_Bold.ttf */,
+				464AB09E2D3D4394B6582501 /* Roboto_Italic.ttf */,
+				06AF08237D6E410F90133499 /* Roboto-Black.ttf */,
+				6EBA55D0C54B45168072177D /* Roboto-BlackItalic.ttf */,
+				39AB7052B25C4AA59ADFA8B8 /* Roboto-BoldItalic.ttf */,
+				FE58A90B0A9548738E25C779 /* Roboto-Light.ttf */,
+				9009D39487ED419CB55632A1 /* Roboto-LightItalic.ttf */,
+				832EAB32F577458089C9E791 /* Roboto-Medium.ttf */,
+				6CEDBFC06F0F4E1886D6FD41 /* Roboto-MediumItalic.ttf */,
+				59093229F135478D8A3742DE /* Roboto-Regular.ttf */,
+				EC8B426E005D40BBB60064AB /* Roboto-Thin.ttf */,
+				1CCCA09492AB4C1A948212D2 /* Roboto-ThinItalic.ttf */,
+				4D7055CD7EBF4637AD468327 /* AntDesign.ttf */,
+				CD183053EC7A49EF9F93623F /* Entypo.ttf */,
+				89AFBB79EFE948CA94D87EEF /* EvilIcons.ttf */,
+				C0E8A7F224E64AF5BB5F0976 /* Feather.ttf */,
+				3CEFA4D1B70E499993137DE7 /* FontAwesome.ttf */,
+				D6D7919545B24121B05DB37C /* FontAwesome5_Brands.ttf */,
+				374BF50182EC4384B79491D5 /* FontAwesome5_Regular.ttf */,
+				53E46367F92D43DCA5789B89 /* Fontisto.ttf */,
+				5FB920734DBF433D941B0BC0 /* Foundation.ttf */,
+				D39935C822C445BFA2B2ED0F /* Ionicons.ttf */,
+				DC098DA2687E431AA33110BB /* MaterialCommunityIcons.ttf */,
+				C44D7E9FB3B84835A54E30A3 /* Octicons.ttf */,
+				462FB40D6A5D41DE97783C5D /* SimpleLineIcons.ttf */,
+				B668B200DE344059AAE1DB91 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				4089119F2C711F999AD1F373 /* libPods-Msaken.a */,
+				0CE486A4E0B7AC069397347C /* libPods-Msaken-MsakenTests.a */,
+				1757DCC5EB53956402DAF575 /* libPods-MsakenPushNotification.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		694BE66BD3D331EA538DEA51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				027964B6F4F856EA7BC99E51 /* Pods-Msaken.debug.xcconfig */,
+				3AC20F372B83E24B774FE4EA /* Pods-Msaken.release.xcconfig */,
+				65830C45927E263E1F364045 /* Pods-Msaken-MsakenTests.debug.xcconfig */,
+				21D88D455640B588800554BA /* Pods-Msaken-MsakenTests.release.xcconfig */,
+				7BA8F79CF54BED6A1BB6BAA1 /* Pods-MsakenPushNotification.debug.xcconfig */,
+				D31EA4AEC70406CAA46036BF /* Pods-MsakenPushNotification.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Msaken */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* MsakenTests */,
+				BD2F934D27A58A3800B5B0EA /* MsakenPushNotification */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				694BE66BD3D331EA538DEA51 /* Pods */,
+				2A9D3ED49BFD428A9E1A8C37 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Msaken.app */,
+				00E356EE1AD99517003FC87E /* MsakenTests.xctest */,
+				BD2F934C27A58A3800B5B0EA /* MsakenPushNotification.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD1E033927A15CF5000AEB8F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BD1E037127A1680C000AEB8F /* Roboto-Regular.ttf */,
+				BD1E036F27A16139000AEB8F /* Material Icons.ttf */,
+				BD1E035D27A15FD9000AEB8F /* AntDesign.ttf */,
+				BD1E035C27A15FD8000AEB8F /* Entypo.ttf */,
+				BD1E035927A15FD7000AEB8F /* EvilIcons.ttf */,
+				BD1E035827A15FD7000AEB8F /* Feather.ttf */,
+				BD1E035F27A15FD9000AEB8F /* FontAwesome5_Regular.ttf */,
+				BD1E035B27A15FD8000AEB8F /* FontAwesome5_Solid.ttf */,
+				BD1E035E27A15FD9000AEB8F /* Fontisto.ttf */,
+				BD1E036027A15FD9000AEB8F /* Foundation.ttf */,
+				BD1E035A27A15FD8000AEB8F /* MaterialIcons.ttf */,
+				BD1E035727A15FD7000AEB8F /* Octicons.ttf */,
+				BD1E036127A15FDA000AEB8F /* SimpleLineIcons.ttf */,
+				BD1E036227A15FDA000AEB8F /* Zocial.ttf */,
+				BD1E035327A15F73000AEB8F /* Roboto-Bold.ttf */,
+				BD1E035427A15F73000AEB8F /* Roboto-Italic.ttf */,
+				BD1E034027A15D9A000AEB8F /* Roboto_Bold.ttf */,
+				BD1E034427A15D9B000AEB8F /* Roboto_Italic.ttf */,
+				BD1E034527A15D9B000AEB8F /* Roboto-Black.ttf */,
+				BD1E034127A15D9A000AEB8F /* Roboto-BlackItalic.ttf */,
+				BD1E033E27A15D9A000AEB8F /* Roboto-BoldItalic.ttf */,
+				BD1E033D27A15D9A000AEB8F /* Roboto-Light.ttf */,
+				BD1E034227A15D9B000AEB8F /* Roboto-LightItalic.ttf */,
+				BD1E034627A15D9B000AEB8F /* Roboto-Medium.ttf */,
+				BD1E034327A15D9B000AEB8F /* Roboto-MediumItalic.ttf */,
+				BD1E033B27A15D9A000AEB8F /* Roboto-Regular.ttf */,
+				BD1E033F27A15D9A000AEB8F /* Roboto-Thin.ttf */,
+				BD1E033C27A15D9A000AEB8F /* Roboto-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BD2F934D27A58A3800B5B0EA /* MsakenPushNotification */ = {
+			isa = PBXGroup;
+			children = (
+				BD2F934E27A58A3800B5B0EA /* NotificationService.swift */,
+				BD2F935027A58A3800B5B0EA /* Info.plist */,
+			);
+			path = MsakenPushNotification;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* MsakenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MsakenTests" */;
+			buildPhases = (
+				0EC9A51532EE41184DEBC0D0 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				E4E6806A626CA11A7FE396B0 /* [CP] Copy Pods Resources */,
+				8D4D0E1AA7064FF4F65F88DB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = MsakenTests;
+			productName = MsakenTests;
+			productReference = 00E356EE1AD99517003FC87E /* MsakenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Msaken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Msaken" */;
+			buildPhases = (
+				C9789EE97ABE5D901EC37F13 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				DCAD7109FD1AC25B77E25FBA /* [CP] Copy Pods Resources */,
+				65B155D6115D485A8599A1CE /* [CP] Embed Pods Frameworks */,
+				BD2F935727A58A3800B5B0EA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD2F935227A58A3800B5B0EA /* PBXTargetDependency */,
+			);
+			name = Msaken;
+			productName = Msaken;
+			productReference = 13B07F961A680F5B00A75B9A /* Msaken.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD2F934B27A58A3800B5B0EA /* MsakenPushNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2F935427A58A3800B5B0EA /* Build configuration list for PBXNativeTarget "MsakenPushNotification" */;
+			buildPhases = (
+				905E21F2D170EB525BE9672B /* [CP] Check Pods Manifest.lock */,
+				BD2F934827A58A3800B5B0EA /* Sources */,
+				BD2F934927A58A3800B5B0EA /* Frameworks */,
+				BD2F934A27A58A3800B5B0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MsakenPushNotification;
+			productName = MsakenPushNotification;
+			productReference = BD2F934C27A58A3800B5B0EA /* MsakenPushNotification.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+					BD2F934B27A58A3800B5B0EA = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Msaken" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Msaken */,
+				00E356ED1AD99517003FC87E /* MsakenTests */,
+				BD2F934B27A58A3800B5B0EA /* MsakenPushNotification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1E034B27A15D9B000AEB8F /* Roboto-Thin.ttf in Resources */,
+				BD1E033527A15BAB000AEB8F /* Roboto-BlackItalic.ttf in Resources */,
+				BD1E035527A15F73000AEB8F /* Roboto-Bold.ttf in Resources */,
+				BD1E034727A15D9B000AEB8F /* Roboto-Regular.ttf in Resources */,
+				BD1E034A27A15D9B000AEB8F /* Roboto-BoldItalic.ttf in Resources */,
+				BD1E035127A15D9B000AEB8F /* Roboto-Black.ttf in Resources */,
+				BD1E035627A15F73000AEB8F /* Roboto-Italic.ttf in Resources */,
+				BD1E034C27A15D9B000AEB8F /* Roboto_Bold.ttf in Resources */,
+				BD1E034D27A15D9B000AEB8F /* Roboto-BlackItalic.ttf in Resources */,
+				BD1E034827A15D9B000AEB8F /* Roboto-ThinItalic.ttf in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				BD1E034E27A15D9B000AEB8F /* Roboto-LightItalic.ttf in Resources */,
+				BDAE9F3927A01E850091A278 /* GoogleService-Info.plist in Resources */,
+				BD1E035227A15D9B000AEB8F /* Roboto-Medium.ttf in Resources */,
+				BD1E033227A147F4000AEB8F /* Images.xcassets in Resources */,
+				BD1E034F27A15D9B000AEB8F /* Roboto-MediumItalic.ttf in Resources */,
+				BD1E033827A15BB2000AEB8F /* Roboto-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2F934A27A58A3800B5B0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		0EC9A51532EE41184DEBC0D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Msaken-MsakenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65B155D6115D485A8599A1CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Msaken/Pods-Msaken-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Msaken/Pods-Msaken-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Msaken/Pods-Msaken-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D4D0E1AA7064FF4F65F88DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Msaken-MsakenTests/Pods-Msaken-MsakenTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Msaken-MsakenTests/Pods-Msaken-MsakenTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Msaken-MsakenTests/Pods-Msaken-MsakenTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		905E21F2D170EB525BE9672B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MsakenPushNotification-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9789EE97ABE5D901EC37F13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Msaken-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCAD7109FD1AC25B77E25FBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Msaken/Pods-Msaken-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Msaken/Pods-Msaken-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Msaken/Pods-Msaken-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4E6806A626CA11A7FE396B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Msaken-MsakenTests/Pods-Msaken-MsakenTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Msaken-MsakenTests/Pods-Msaken-MsakenTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Msaken-MsakenTests/Pods-Msaken-MsakenTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* MsakenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2F934827A58A3800B5B0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2F934F27A58A3800B5B0EA /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Msaken */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		BD2F935227A58A3800B5B0EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD2F934B27A58A3800B5B0EA /* MsakenPushNotification */;
+			targetProxy = BD2F935127A58A3800B5B0EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65830C45927E263E1F364045 /* Pods-Msaken-MsakenTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MsakenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Msaken.app/Msaken";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D88D455640B588800554BA /* Pods-Msaken-MsakenTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = MsakenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Msaken.app/Msaken";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027964B6F4F856EA7BC99E51 /* Pods-Msaken.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Msaken/Msaken.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZQ8W9VH7K;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Msaken/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Msaken;
+				PRODUCT_NAME = Msaken;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC20F372B83E24B774FE4EA /* Pods-Msaken.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Msaken/Msaken.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZQ8W9VH7K;
+				INFOPLIST_FILE = Msaken/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Msaken;
+				PRODUCT_NAME = Msaken;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD2F935527A58A3800B5B0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA8F79CF54BED6A1BB6BAA1 /* Pods-MsakenPushNotification.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QZQ8W9VH7K;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MsakenPushNotification/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MsakenPushNotification;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Msaken.MsakenPushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD2F935627A58A3800B5B0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31EA4AEC70406CAA46036BF /* Pods-MsakenPushNotification.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QZQ8W9VH7K;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MsakenPushNotification/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MsakenPushNotification;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Msaken.MsakenPushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MsakenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Msaken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Msaken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2F935427A58A3800B5B0EA /* Build configuration list for PBXNativeTarget "MsakenPushNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2F935527A58A3800B5B0EA /* Debug */,
+				BD2F935627A58A3800B5B0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

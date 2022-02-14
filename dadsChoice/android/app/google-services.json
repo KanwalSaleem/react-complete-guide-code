@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1096658717319",
+    "project_id": "dads-choice",
+    "storage_bucket": "dads-choice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096658717319:android:aea1c90deb9fcb82428622",
+        "android_client_info": {
+          "package_name": "com.dadschoice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096658717319-3hof7ij4d9807g9ec8gpeuc88kqu3hh4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPYxgsDIFKE-IHmvpQJdkSl10SXpZ01g4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096658717319-3hof7ij4d9807g9ec8gpeuc88kqu3hh4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096658717319:android:222dae92b5e11252428622",
+        "android_client_info": {
+          "package_name": "org.dadschoice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096658717319-3hof7ij4d9807g9ec8gpeuc88kqu3hh4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPYxgsDIFKE-IHmvpQJdkSl10SXpZ01g4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096658717319-3hof7ij4d9807g9ec8gpeuc88kqu3hh4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1002 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* TodaysFreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TodaysFreshTests.m */; };
+		0E2635B70F744DA8AFD05756 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4DB619DC8CB4E27970CDF7E /* Roboto-BoldItalic.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		196549B886EC4CB0BC9BCFE6 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A821FE4CA1834815B8329E77 /* Roboto-BlackItalic.ttf */; };
+		37BD1DCA5F0C4B079F7145EB /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5BE18551C12469B8F1F7EB5 /* Roboto-Light.ttf */; };
+		3B89033E86124F568D52DD3F /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D90B979AF6F24F45A31CF6FF /* OpenSans-ExtraBoldItalic.ttf */; };
+		3E3EA652360F497FB9D8C21E /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B952F297F194CA6BD728857 /* OpenSans-LightItalic.ttf */; };
+		41C19F17CF2748758540056B /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 956B7115B64B40CCAB370ED4 /* Roboto-Black.ttf */; };
+		484766C8AEA14322A4E0988A /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D9241FA30A845A8BD6D791C /* Roboto-MediumItalic.ttf */; };
+		55E55AAAACB540B485AEE010 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBAFCFAC08104634B290107D /* OpenSans-SemiBold.ttf */; };
+		56DF5090FB6B4EF098C84173 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDD05DD0E1F34EA9868F53F3 /* Roboto-ThinItalic.ttf */; };
+		5905BD2046F049158756054D /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E08CA7066FC84F4A81C67572 /* Roboto-Regular.ttf */; };
+		60E407ABB6DF7E031ED3A12A /* libPods-TodaysFreshPushNotification.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3ED9183C7490FD639CCBD5 /* libPods-TodaysFreshPushNotification.a */; };
+		6B0EB5C6393342B08BF894BB /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08000F3CEE5C4695A39CF0A0 /* OpenSans-Bold.ttf */; };
+		6B79865831B8467496994E4B /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 867FD366FB624CC3A3D69BC6 /* Roboto-LightItalic.ttf */; };
+		6E2A10B06C67498AA74C8FED /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEF9FD7D9FC04977851EE841 /* OpenSans-Regular.ttf */; };
+		7F8440D96665496AA82C8D8A /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77C167118AD34339B44B35C8 /* OpenSans-SemiBoldItalic.ttf */; };
+		80E7BA8A488588E3BBEE6A9C /* libPods-TodaysFresh-TodaysFreshTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7785C80983E6BFC6832ED114 /* libPods-TodaysFresh-TodaysFreshTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8361AD93F60BF2D4AF89E8C7 /* libPods-TodaysFresh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20DF507F4439E7A7FB01929F /* libPods-TodaysFresh.a */; };
+		9259C31C1293412F9317CDC8 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F11387BE399425889F60396 /* OpenSans-BoldItalic.ttf */; };
+		98B7A79F3B19448BA952A0E7 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9218C873EB14412996403615 /* OpenSans-Italic.ttf */; };
+		A1EE88B6CCB64BC28024A52A /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58598BAA69844C33B7E5FA07 /* Roboto-Italic.ttf */; };
+		A72966A25A5042D4A77147A7 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB3651F68C1445689A64043 /* OpenSans-ExtraBold.ttf */; };
+		B552FD0AE48A453C8A86EB8E /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9346144DE6F4151A8F7E7DE /* Roboto-Medium.ttf */; };
+		B88F5ED2238B4B30B236F199 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CD58CDF1878450E9F46926E /* Roboto-Bold.ttf */; };
+		BD5A72CF279720C80059A647 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A72CE279720C80059A647 /* NotificationService.swift */; };
+		BD5A72D3279720C80059A647 /* TodaysFreshPushNotification.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BD5A72CC279720C80059A647 /* TodaysFreshPushNotification.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DE21789B44324BCC824DC188 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F093680383044449D2E8944 /* OpenSans-Light.ttf */; };
+		F39BBD7A11684E18A0CA7F58 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF1C43F1865643109A1A3278 /* Roboto-Thin.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = TodaysFresh;
+		};
+		BD5A72D1279720C80059A647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5A72CB279720C80059A647;
+			remoteInfo = TodaysFreshPushNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BD5A72D7279720C80059A647 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BD5A72D3279720C80059A647 /* TodaysFreshPushNotification.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* TodaysFreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodaysFreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* TodaysFreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodaysFreshTests.m; sourceTree = "<group>"; };
+		08000F3CEE5C4695A39CF0A0 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		0D9241FA30A845A8BD6D791C /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* TodaysFresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodaysFresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TodaysFresh/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TodaysFresh/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TodaysFresh/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TodaysFresh/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TodaysFresh/main.m; sourceTree = "<group>"; };
+		1C21A60E45714EA487B2AF53 /* Pods-TodaysFresh-TodaysFreshTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodaysFresh-TodaysFreshTests.release.xcconfig"; path = "Target Support Files/Pods-TodaysFresh-TodaysFreshTests/Pods-TodaysFresh-TodaysFreshTests.release.xcconfig"; sourceTree = "<group>"; };
+		20DF507F4439E7A7FB01929F /* libPods-TodaysFresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TodaysFresh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D3ED9183C7490FD639CCBD5 /* libPods-TodaysFreshPushNotification.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TodaysFreshPushNotification.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F11387BE399425889F60396 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-BoldItalic.ttf"; path = "../assets/fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3CD58CDF1878450E9F46926E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		51162CE0C81FE3C85C9E2DA7 /* Pods-TodaysFresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodaysFresh.release.xcconfig"; path = "Target Support Files/Pods-TodaysFresh/Pods-TodaysFresh.release.xcconfig"; sourceTree = "<group>"; };
+		58598BAA69844C33B7E5FA07 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		59F129C5B9BC6FFC9BFD4CF2 /* Pods-TodaysFreshPushNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodaysFreshPushNotification.release.xcconfig"; path = "Target Support Files/Pods-TodaysFreshPushNotification/Pods-TodaysFreshPushNotification.release.xcconfig"; sourceTree = "<group>"; };
+		701431326665BA106AE5DF9B /* Pods-TodaysFresh-TodaysFreshTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodaysFresh-TodaysFreshTests.debug.xcconfig"; path = "Target Support Files/Pods-TodaysFresh-TodaysFreshTests/Pods-TodaysFresh-TodaysFreshTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7785C80983E6BFC6832ED114 /* libPods-TodaysFresh-TodaysFreshTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TodaysFresh-TodaysFreshTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C167118AD34339B44B35C8 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBoldItalic.ttf"; path = "../assets/fonts/OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		7B952F297F194CA6BD728857 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-LightItalic.ttf"; path = "../assets/fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		7F093680383044449D2E8944 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../assets/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TodaysFresh/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		857DE20E7161147CE68ED5B0 /* Pods-TodaysFreshPushNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodaysFreshPushNotification.debug.xcconfig"; path = "Target Support Files/Pods-TodaysFreshPushNotification/Pods-TodaysFreshPushNotification.debug.xcconfig"; sourceTree = "<group>"; };
+		867FD366FB624CC3A3D69BC6 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		9218C873EB14412996403615 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Italic.ttf"; path = "../assets/fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		956B7115B64B40CCAB370ED4 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		A821FE4CA1834815B8329E77 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B9346144DE6F4151A8F7E7DE /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		BD5A72C727971F8C0059A647 /* TodaysFresh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = TodaysFresh.entitlements; path = TodaysFresh/TodaysFresh.entitlements; sourceTree = "<group>"; };
+		BD5A72CC279720C80059A647 /* TodaysFreshPushNotification.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodaysFreshPushNotification.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5A72CE279720C80059A647 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		BD5A72D0279720C80059A647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD8D49612797251600A84581 /* TodaysFreshPushNotification.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TodaysFreshPushNotification.entitlements; sourceTree = "<group>"; };
+		CDB3651F68C1445689A64043 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D5AB7595DFD57993534A1231 /* Pods-TodaysFresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodaysFresh.debug.xcconfig"; path = "Target Support Files/Pods-TodaysFresh/Pods-TodaysFresh.debug.xcconfig"; sourceTree = "<group>"; };
+		D5BE18551C12469B8F1F7EB5 /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		D90B979AF6F24F45A31CF6FF /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBoldItalic.ttf"; path = "../assets/fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		DBAFCFAC08104634B290107D /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		E08CA7066FC84F4A81C67572 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EF1C43F1865643109A1A3278 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		F4DB619DC8CB4E27970CDF7E /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FDD05DD0E1F34EA9868F53F3 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		FEF9FD7D9FC04977851EE841 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E7BA8A488588E3BBEE6A9C /* libPods-TodaysFresh-TodaysFreshTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8361AD93F60BF2D4AF89E8C7 /* libPods-TodaysFresh.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5A72C9279720C80059A647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E407ABB6DF7E031ED3A12A /* libPods-TodaysFreshPushNotification.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* TodaysFreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* TodaysFreshTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = TodaysFreshTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* TodaysFresh */ = {
+			isa = PBXGroup;
+			children = (
+				BD5A72C727971F8C0059A647 /* TodaysFresh.entitlements */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = TodaysFresh;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				20DF507F4439E7A7FB01929F /* libPods-TodaysFresh.a */,
+				7785C80983E6BFC6832ED114 /* libPods-TodaysFresh-TodaysFreshTests.a */,
+				2D3ED9183C7490FD639CCBD5 /* libPods-TodaysFreshPushNotification.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50C4B939A77D438EB2BBCA25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				08000F3CEE5C4695A39CF0A0 /* OpenSans-Bold.ttf */,
+				2F11387BE399425889F60396 /* OpenSans-BoldItalic.ttf */,
+				CDB3651F68C1445689A64043 /* OpenSans-ExtraBold.ttf */,
+				D90B979AF6F24F45A31CF6FF /* OpenSans-ExtraBoldItalic.ttf */,
+				9218C873EB14412996403615 /* OpenSans-Italic.ttf */,
+				7F093680383044449D2E8944 /* OpenSans-Light.ttf */,
+				7B952F297F194CA6BD728857 /* OpenSans-LightItalic.ttf */,
+				FEF9FD7D9FC04977851EE841 /* OpenSans-Regular.ttf */,
+				DBAFCFAC08104634B290107D /* OpenSans-SemiBold.ttf */,
+				77C167118AD34339B44B35C8 /* OpenSans-SemiBoldItalic.ttf */,
+				956B7115B64B40CCAB370ED4 /* Roboto-Black.ttf */,
+				A821FE4CA1834815B8329E77 /* Roboto-BlackItalic.ttf */,
+				3CD58CDF1878450E9F46926E /* Roboto-Bold.ttf */,
+				F4DB619DC8CB4E27970CDF7E /* Roboto-BoldItalic.ttf */,
+				58598BAA69844C33B7E5FA07 /* Roboto-Italic.ttf */,
+				D5BE18551C12469B8F1F7EB5 /* Roboto-Light.ttf */,
+				867FD366FB624CC3A3D69BC6 /* Roboto-LightItalic.ttf */,
+				B9346144DE6F4151A8F7E7DE /* Roboto-Medium.ttf */,
+				0D9241FA30A845A8BD6D791C /* Roboto-MediumItalic.ttf */,
+				E08CA7066FC84F4A81C67572 /* Roboto-Regular.ttf */,
+				EF1C43F1865643109A1A3278 /* Roboto-Thin.ttf */,
+				FDD05DD0E1F34EA9868F53F3 /* Roboto-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* TodaysFresh */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* TodaysFreshTests */,
+				BD5A72CD279720C80059A647 /* TodaysFreshPushNotification */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				50C4B939A77D438EB2BBCA25 /* Resources */,
+				D30E55A83EDA8F10D5E1CEEC /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* TodaysFresh.app */,
+				00E356EE1AD99517003FC87E /* TodaysFreshTests.xctest */,
+				BD5A72CC279720C80059A647 /* TodaysFreshPushNotification.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD5A72CD279720C80059A647 /* TodaysFreshPushNotification */ = {
+			isa = PBXGroup;
+			children = (
+				BD8D49612797251600A84581 /* TodaysFreshPushNotification.entitlements */,
+				BD5A72CE279720C80059A647 /* NotificationService.swift */,
+				BD5A72D0279720C80059A647 /* Info.plist */,
+			);
+			path = TodaysFreshPushNotification;
+			sourceTree = "<group>";
+		};
+		D30E55A83EDA8F10D5E1CEEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5AB7595DFD57993534A1231 /* Pods-TodaysFresh.debug.xcconfig */,
+				51162CE0C81FE3C85C9E2DA7 /* Pods-TodaysFresh.release.xcconfig */,
+				701431326665BA106AE5DF9B /* Pods-TodaysFresh-TodaysFreshTests.debug.xcconfig */,
+				1C21A60E45714EA487B2AF53 /* Pods-TodaysFresh-TodaysFreshTests.release.xcconfig */,
+				857DE20E7161147CE68ED5B0 /* Pods-TodaysFreshPushNotification.debug.xcconfig */,
+				59F129C5B9BC6FFC9BFD4CF2 /* Pods-TodaysFreshPushNotification.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* TodaysFreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TodaysFreshTests" */;
+			buildPhases = (
+				3500094A2ACB16299099C5CA /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				34C28D250A35CE0E038A86CF /* [CP] Embed Pods Frameworks */,
+				4AA9BCAD95DA685D72E7A817 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = TodaysFreshTests;
+			productName = TodaysFreshTests;
+			productReference = 00E356EE1AD99517003FC87E /* TodaysFreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* TodaysFresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TodaysFresh" */;
+			buildPhases = (
+				859071632B94F038C7884401 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				A1AF52174FFFB6ECC47D058E /* [CP] Embed Pods Frameworks */,
+				3B837C240629D05637D0681E /* [CP] Copy Pods Resources */,
+				BD5A72D7279720C80059A647 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD5A72D2279720C80059A647 /* PBXTargetDependency */,
+			);
+			name = TodaysFresh;
+			productName = TodaysFresh;
+			productReference = 13B07F961A680F5B00A75B9A /* TodaysFresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD5A72CB279720C80059A647 /* TodaysFreshPushNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5A72D4279720C80059A647 /* Build configuration list for PBXNativeTarget "TodaysFreshPushNotification" */;
+			buildPhases = (
+				322D419A323908D779502612 /* [CP] Check Pods Manifest.lock */,
+				BD5A72C8279720C80059A647 /* Sources */,
+				BD5A72C9279720C80059A647 /* Frameworks */,
+				BD5A72CA279720C80059A647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodaysFreshPushNotification;
+			productName = TodaysFreshPushNotification;
+			productReference = BD5A72CC279720C80059A647 /* TodaysFreshPushNotification.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+					BD5A72CB279720C80059A647 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TodaysFresh" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* TodaysFresh */,
+				00E356ED1AD99517003FC87E /* TodaysFreshTests */,
+				BD5A72CB279720C80059A647 /* TodaysFreshPushNotification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				6B0EB5C6393342B08BF894BB /* OpenSans-Bold.ttf in Resources */,
+				9259C31C1293412F9317CDC8 /* OpenSans-BoldItalic.ttf in Resources */,
+				A72966A25A5042D4A77147A7 /* OpenSans-ExtraBold.ttf in Resources */,
+				3B89033E86124F568D52DD3F /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				98B7A79F3B19448BA952A0E7 /* OpenSans-Italic.ttf in Resources */,
+				DE21789B44324BCC824DC188 /* OpenSans-Light.ttf in Resources */,
+				3E3EA652360F497FB9D8C21E /* OpenSans-LightItalic.ttf in Resources */,
+				6E2A10B06C67498AA74C8FED /* OpenSans-Regular.ttf in Resources */,
+				55E55AAAACB540B485AEE010 /* OpenSans-SemiBold.ttf in Resources */,
+				7F8440D96665496AA82C8D8A /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				41C19F17CF2748758540056B /* Roboto-Black.ttf in Resources */,
+				196549B886EC4CB0BC9BCFE6 /* Roboto-BlackItalic.ttf in Resources */,
+				B88F5ED2238B4B30B236F199 /* Roboto-Bold.ttf in Resources */,
+				0E2635B70F744DA8AFD05756 /* Roboto-BoldItalic.ttf in Resources */,
+				A1EE88B6CCB64BC28024A52A /* Roboto-Italic.ttf in Resources */,
+				37BD1DCA5F0C4B079F7145EB /* Roboto-Light.ttf in Resources */,
+				6B79865831B8467496994E4B /* Roboto-LightItalic.ttf in Resources */,
+				B552FD0AE48A453C8A86EB8E /* Roboto-Medium.ttf in Resources */,
+				484766C8AEA14322A4E0988A /* Roboto-MediumItalic.ttf in Resources */,
+				5905BD2046F049158756054D /* Roboto-Regular.ttf in Resources */,
+				F39BBD7A11684E18A0CA7F58 /* Roboto-Thin.ttf in Resources */,
+				56DF5090FB6B4EF098C84173 /* Roboto-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5A72CA279720C80059A647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		322D419A323908D779502612 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TodaysFreshPushNotification-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34C28D250A35CE0E038A86CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodaysFresh-TodaysFreshTests/Pods-TodaysFresh-TodaysFreshTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodaysFresh-TodaysFreshTests/Pods-TodaysFresh-TodaysFreshTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TodaysFresh-TodaysFreshTests/Pods-TodaysFresh-TodaysFreshTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3500094A2ACB16299099C5CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TodaysFresh-TodaysFreshTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B837C240629D05637D0681E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodaysFresh/Pods-TodaysFresh-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodaysFresh/Pods-TodaysFresh-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TodaysFresh/Pods-TodaysFresh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AA9BCAD95DA685D72E7A817 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodaysFresh-TodaysFreshTests/Pods-TodaysFresh-TodaysFreshTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodaysFresh-TodaysFreshTests/Pods-TodaysFresh-TodaysFreshTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TodaysFresh-TodaysFreshTests/Pods-TodaysFresh-TodaysFreshTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		859071632B94F038C7884401 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TodaysFresh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1AF52174FFFB6ECC47D058E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodaysFresh/Pods-TodaysFresh-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodaysFresh/Pods-TodaysFresh-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TodaysFresh/Pods-TodaysFresh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* TodaysFreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5A72C8279720C80059A647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5A72CF279720C80059A647 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* TodaysFresh */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		BD5A72D2279720C80059A647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD5A72CB279720C80059A647 /* TodaysFreshPushNotification */;
+			targetProxy = BD5A72D1279720C80059A647 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 701431326665BA106AE5DF9B /* Pods-TodaysFresh-TodaysFreshTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TodaysFreshTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodaysFresh.app/TodaysFresh";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C21A60E45714EA487B2AF53 /* Pods-TodaysFresh-TodaysFreshTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = TodaysFreshTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodaysFresh.app/TodaysFresh";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5AB7595DFD57993534A1231 /* Pods-TodaysFresh.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TodaysFresh/TodaysFresh.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZ8KX46MSW;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = TodaysFresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.todaysfresh.pk;
+				PRODUCT_NAME = TodaysFresh;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51162CE0C81FE3C85C9E2DA7 /* Pods-TodaysFresh.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TodaysFresh/TodaysFresh.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZ8KX46MSW;
+				INFOPLIST_FILE = TodaysFresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.todaysfresh.pk;
+				PRODUCT_NAME = TodaysFresh;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD5A72D5279720C80059A647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 857DE20E7161147CE68ED5B0 /* Pods-TodaysFreshPushNotification.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = TodaysFreshPushNotification/TodaysFreshPushNotification.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = VZ8KX46MSW;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TodaysFreshPushNotification/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TodaysFreshPushNotification;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.todaysfresh.pk.TodaysFreshPushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BD5A72D6279720C80059A647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F129C5B9BC6FFC9BFD4CF2 /* Pods-TodaysFreshPushNotification.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = TodaysFreshPushNotification/TodaysFreshPushNotification.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = VZ8KX46MSW;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TodaysFreshPushNotification/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TodaysFreshPushNotification;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.todaysfresh.pk.TodaysFreshPushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TodaysFreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TodaysFresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TodaysFresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5A72D4279720C80059A647 /* Build configuration list for PBXNativeTarget "TodaysFreshPushNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5A72D5279720C80059A647 /* Debug */,
+				BD5A72D6279720C80059A647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
